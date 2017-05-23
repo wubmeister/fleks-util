@@ -1,0 +1,16 @@
+{
+    "name": "fleks/fleks-util",
+    "license": "GPL",
+    "homepage": "https://github.com/wubmeister/fleks-util",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^6.0.6"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Fleks\\Util\\" : "src"
+        }
+    }
+}
